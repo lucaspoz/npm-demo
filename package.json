@@ -1,0 +1,19 @@
+{
+  "name": "npm-demo",
+  "version": "0.0.1",
+  "description": "demo publishing on npm",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --dts --format cjs,esm",
+    "lint": "tsc"
+  },
+  "keywords": [],
+  "author": "lucaspoz",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
